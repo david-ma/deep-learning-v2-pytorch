@@ -1,3 +1,5 @@
+from my_answers import NeuralNetwork
+import unittest
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -68,10 +70,6 @@ test_w_i_h = np.array([[0.1, -0.2],
                        [-0.3, 0.2]])
 test_w_h_o = np.array([[0.3],
                        [-0.1]])
-
-
-import unittest
-from my_answers import NeuralNetwork
 
 
 class TestMethods(unittest.TestCase):
